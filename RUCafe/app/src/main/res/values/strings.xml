@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">RUCafe</string>
+    <string name="welcomeRU">Welcome to Rutgers Cafe</string>
+    <string name="donuts">Donuts</string>
 </resources>

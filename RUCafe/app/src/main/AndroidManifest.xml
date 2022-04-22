@@ -9,6 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity
+            android:name=".StoreOrdersActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BasketActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CoffeeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DonutActivity"
+            android:exported="false" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
