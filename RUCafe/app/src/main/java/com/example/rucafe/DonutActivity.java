@@ -17,7 +17,7 @@ public class DonutActivity extends AppCompatActivity implements AdapterView.OnIt
 
     private ArrayList<Donut> donuts = new ArrayList<>();
 
-    private int[] donutHoleImages = {R.drawable.glazedholes, R.drawable.chocolateholes, R.drawable.powderedholes};
+    private int[] donutHoleImages = {R.drawable.glazedholes, R.drawable.chocolateholes, R.drawable.powderedholes, R.drawable.jelly, R.drawable.jelly, R.drawable.jelly, R.drawable.jelly, R.drawable.jelly, R.drawable.jelly};
 
     private Spinner spinner;
     private ArrayAdapter<String> adapter;
@@ -79,6 +79,8 @@ public class DonutActivity extends AppCompatActivity implements AdapterView.OnIt
 
         Donut d = new Donut();
         ArrayList<String> holeFlavors = d.getHoleFlavors();
+        holeFlavors.addAll(d.getYeastFlavors());
+        //holeFlavors.addAll(d.getCakeFlavors());
 
         /* Add the items to the ArrayList.
          * Note that I use hardcoded prices for demo purpose. This should be replace by other

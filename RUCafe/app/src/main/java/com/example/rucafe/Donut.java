@@ -14,8 +14,8 @@ public class Donut extends MenuItem {
     private static final double CAKE_DONUT_PRICE = 1.79;
     private static final double DONUT_HOLE_PRICE = 0.39;
 
-    private static final ArrayList<String> YEAST_FLAVORS = new ArrayList<String>(Arrays.asList("jelly", "glazed", "chocolate", "custard"));
-    private static final ArrayList<String> CAKE_FLAVORS = new ArrayList<String>(Arrays.asList("glazed", "strawberry", "chocolate", "lemon"));
+    private static final ArrayList<String> YEAST_FLAVORS = new ArrayList<String>(Arrays.asList("jelly", "glazed", "chocolate", "custard", "coconut", "blueberry"));
+    private static final ArrayList<String> CAKE_FLAVORS = new ArrayList<String>(Arrays.asList("vanilla", "strawberry", "french", "lemon", "apple"));
     private static final ArrayList<String> HOLE_FLAVORS = new ArrayList<String>(Arrays.asList("glazed", "chocolate", "powdered"));
 
     private String donutType;
